@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <Wrapper>
       <Row justify="space-evenly">
         <Col span={4}>
-          <h3>Our Food</h3>
+          <h2>Our Food</h2>
           <ul>
             <li>Promotions</li>
             <li>Pizzas</li>
@@ -15,10 +15,10 @@ const Footer: React.FC = () => {
           </ul>
         </Col>
         <Col span={4}>
-          <h3> Our Journey</h3>
+          <h2> Our Journey</h2>
         </Col>
         <Col span={4}>
-          <h3> Let’s Talk</h3>
+          <h2> Let’s Talk</h2>
         </Col>
 
         <Col span={4}>
@@ -28,6 +28,10 @@ const Footer: React.FC = () => {
             style={{ height: "80px", width: "80px" }}
           />
         </Col>
+      </Row>
+
+      <Row justify="center">
+        <Col span={8}>Copyright © 2022 Roman's Pizza. All rights reserved.</Col>
       </Row>
     </Wrapper>
   );
