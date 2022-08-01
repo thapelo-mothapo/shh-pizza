@@ -16,6 +16,11 @@ const Footer: React.FC = () => {
         </Col>
         <Col span={4}>
           <h2> Our Journey</h2>
+          <ul>
+            <li>People</li>
+            <li>Culture</li>
+            <li>Careers</li>
+          </ul>
         </Col>
         <Col span={4}>
           <h2> Let’s Talk</h2>
